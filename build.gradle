@@ -17,6 +17,13 @@ dependencies {
 
     testCompileOnly 'org.projectlombok:lombok:1.18.26'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+    //mysql connector
+    implementation 'mysql:mysql-connector-java:8.0.32'
+
+    //hibernate
+    implementation 'org.hibernate:hibernate-core:5.4.10.Final'
+    implementation 'org.hibernate:hibernate-entitymanager:5.4.10.Final'
 }
 
 test {
